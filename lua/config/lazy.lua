@@ -18,9 +18,7 @@ require("lazy").setup({
     { import = "plugins" },
     { import = "plugins.extras.lang.flutter" },
     -- color scheme imports
-    { import = "plugins.extras.colorscheme.catppuccin" },
-    { import = "plugins.extras.colorscheme.tokyonight" },
-    { import = "plugins.extras.colorscheme.gruvbox" },
+    { import = "plugins.extras.colorscheme" },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
