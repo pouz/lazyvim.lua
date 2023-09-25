@@ -17,4 +17,5 @@ local function map(mode, lhs, rhs, opts)
 end
 
 -- Telescope
-map("n", "<leader>tb", "<cmd>Telescope buffers<cr>", { desc = "Buffers list" })
+map("n", "<leader>tb", "<cmd>Telescope buffer list<cr>", { desc = "Buffers list" })
+map("n", "<leader>tf", "<cmd>Telescope Flutter Command<cr>", { desc = "Buffers list" })
