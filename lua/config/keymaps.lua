@@ -18,4 +18,4 @@ end
 
 -- Telescope
 map("n", "<leader>tb", "<cmd>Telescope buffer list<cr>", { desc = "Buffers list" })
-map("n", "<leader>tf", "<cmd>Telescope Flutter Command<cr>", { desc = "Buffers list" })
+map("n", "<leader>tf", "<cmd>Telescope flutter command<cr>", { desc = "Flutter Commands" })
