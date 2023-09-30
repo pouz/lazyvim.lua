@@ -58,15 +58,15 @@ return {
       { "RobertBrunhage/flutter-riverpod-snippets" },
     },
   },
-  {
-    "nvim-neotest/neotest",
-    dependencies = {
-      { "sidlatau/neotest-dart" },
-    },
-    opts = function(_, opts)
-      vim.list_extend(opts.adapters, {
-        require("neotest-dart")({ command = "flutter" }),
-      })
-    end,
-  },
+  --  {
+  --    "nvim-neotest/neotest",
+  --    dependencies = {
+  --      { "sidlatau/neotest-dart" },
+  --    },
+  --    opts = function(_, opts)
+  --      vim.list_extend(opts.adapters, {
+  --        require("neotest-dart")({ command = "flutter" }),
+  --      })
+  --    end,
+  --  },
 }
