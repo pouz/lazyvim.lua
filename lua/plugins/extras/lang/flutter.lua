@@ -13,10 +13,6 @@
 --    end,
 --  },
 --}
-if not require("config").pde.flutter then
-  return {}
-end
-
 return {
   {
     "nvim-treesitter/nvim-treesitter",
