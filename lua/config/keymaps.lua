@@ -2,7 +2,7 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
-Local Util = require("lazyvim.util")
+local util = require("lazyvim.util")
 
 local function map(mode, lhs, rhs, opts)
   local keys = require("lazy.core.handler").handlers.keys
@@ -18,7 +18,7 @@ end
 
 -- Telescope
 map("n", "<leader>tf", require("telescope").extensions.flutter.commands, { desc = "Flutter Commands" })
--- Window size
+-- Window resize
 map("n", "<C-S-h>", "<C-w><")
 map("n", "<C-S-l>", "<C-w>>")
 map("n", "<C-S-j>", "<C-w>-")
