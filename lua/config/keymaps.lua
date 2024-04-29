@@ -23,3 +23,6 @@ map("n", "<C-S-h>", "<C-w><")
 map("n", "<C-S-l>", "<C-w>>")
 map("n", "<C-S-j>", "<C-w>-")
 map("n", "<C-S-k>", "<C-w>+")
+-- switching tabs
+map("n", "<C-,>", ":tabprev<cr>")
+map("n", "<C-.>", ":tabnext<cr>")
